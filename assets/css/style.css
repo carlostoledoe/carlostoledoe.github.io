@@ -242,6 +242,10 @@ footer a {
         margin-top: 8rem;
         font-size: 3rem;
     }
+    .inicio img {
+        margin-top: 13rem;
+        margin-bottom: 10rem;
+    }
     #about {
         background-color: #323846;
         margin-top: 1rem;
@@ -270,6 +274,12 @@ footer a {
     }
     .about .iconos {
         font-size: 5rem;
+        margin-top: 3rem;
+    }
+    .desarrollado-por {
+        text-align: center;
+        font-size: 0.6rem;
+        font-weight: 100;
         margin-top: 3rem;
     }
     }
