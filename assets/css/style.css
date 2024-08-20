@@ -103,7 +103,6 @@ body {
 }
 
 .inicio img {
-    width: 25rem;
     margin-top: 9rem ;
 }
 
@@ -236,3 +235,41 @@ footer a {
     font-weight: 100;
     margin-top: 3rem;
 }
+
+/* Se aplica de  576 hacia abajo */
+@media (max-width: 576px) {
+    .inicio h1 {
+        margin-top: 8rem;
+        font-size: 3rem;
+    }
+    #about {
+        background-color: #323846;
+        margin-top: 1rem;
+        padding-bottom: 3rem;
+    }
+    .contenido-about {
+        padding: 1rem 0;
+    }
+    .contenido-habilidades {
+        padding: 7rem 0;
+    }
+    .proyectos {
+        background-color: #323846;
+        padding: 3rem;
+    }
+    .proyectos .card {
+        margin-bottom: 3rem;
+    }
+    footer {
+        padding: 4rem 0;
+    }
+    footer h1 {
+        color: #9747FF;
+        font-weight: 900;
+        font-size: 3rem;
+    }
+    .about .iconos {
+        font-size: 5rem;
+        margin-top: 3rem;
+    }
+    }
